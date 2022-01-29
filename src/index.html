@@ -1,0 +1,253 @@
+<!Doctype html>
+<html lang="en" >  
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Your Car - Survey Form">
+  <meta name="author" content="Andrey">
+  <meta name="viewport" content="width=device-width, initial-scale-1.0">
+  <title>Survey Form</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<div class="container">  
+  <hearder class="header">
+    <h1 id="title" class="text-center">Your Car - Survey Form</h1>
+       <p id="description" class="description text-center">Thank you for Your help! You are very important for us!</p>
+   </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter Your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for "email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number">Age <span class="clue">(optional)</span></label>
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="16"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+    <div class="form-group">
+      <p>What is your gender?</p>
+      <label>
+        <input
+          name="driver-gender"
+          value="male"
+          type="radio"
+          class="input-radio"
+          checked
+        />Male</label>
+      <label>
+        <input
+          name="driver-gender"
+          value="female"
+          type="radio"
+          class="input-radio"
+        />Female</label>
+      <label>
+        <input
+          name="driver-gender"
+          value="other"
+          type="radio"
+          class="input-radio"
+        />Other</label>
+    </div>
+    <div class="form-group">
+      <p>What is the color of your vehile?</p>
+      <select id="colorcar" name="color-car" class="form-control" required>
+        <option disable selected value>Select current color</option>
+        <option value="white-car">White</option>
+        <option value="black-car">Black</option>
+        <option value="red-car">Red</option>
+        <option value="green-car">Green</option>
+        <option value="blue-car">Blue</option>
+        <option value="yellow-car">Yellow</option>
+        <option value="grey-car">Grey</option>
+        <option value="colorful-car">Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>What is the body style of your vehicle?</p>
+      <select id="bodytype" name="body-type" class="form-control" required>
+        <option disable selected value>Select current body style</option>
+        <option value="sedan-car">Sedan</option>
+        <option value="hatchback-car">Hatchback</option>
+        <option value="wagon-car">Wagon</option>
+        <option value="coupe-car">Coupe</option>
+        <option value="minivan-car">Minivan</option>
+        <option value="suv-car">SUV</option>
+        <option value="pickup-car">Pickup</option>
+        <option value="style-car">Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>What is your favorite trademark? <span class="clue">(You can choice some)</span></p>
+      <div class="column">
+      <label>
+        <input
+         name="favorite"
+         value="audi"
+         type="checkbox"
+         class="input-checkbox"
+         />Audi
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="bmw"
+         type="checkbox"
+         class="input-checkbox"
+         />BMW
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="chevrolet"
+         type="checkbox"
+         class="input-checkbox"
+         />Chevrolet
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="citroen"
+         type="checkbox"
+         class="input-checkbox"
+         />Citroen
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="fiat"
+         type="checkbox"
+         class="input-checkbox"
+         />Fiat
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="ford"
+         type="checkbox"
+         class="input-checkbox"
+         />Ford
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="honda"
+         type="checkbox"
+         class="input-checkbox"
+         />Honda
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="hyundai"
+         type="checkbox"
+         class="input-checkbox"
+         />Hyundai
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="kia"
+         type="checkbox"
+         class="input-checkbox"
+         />Kia
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="lexus"
+         type="checkbox"
+         class="input-checkbox"
+         />Lexus
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="mazda"
+         type="checkbox"
+         class="input-checkbox"
+         />Mazda
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="mersedes"
+         type="checkbox"
+         class="input-checkbox"
+         />Mersedes
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="nissan"
+         type="checkbox"
+         class="input-checkbox"
+         />Nissan
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="peugeot"
+         type="checkbox"
+         class="input-checkbox"
+         />Peugeot
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="skoda"
+         type="checkbox"
+         class="input-checkbox"
+         />Skoda
+      </label>
+      <label>
+        <input
+         name="favorite"
+         value="toyota"
+         type="checkbox"
+         class="input-checkbox"
+         />Toyota
+      </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Other trademark</label>
+      <textarea
+        id="other-td"
+        class="input-textarea"
+        name="other"
+        placeholder="Enter your vehicle's trademark here..."
+       ></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>
+  </form>
+  </div>
+  
+</html>
